@@ -5,6 +5,27 @@ body {
     background-color: #ffffff;
 }
 
+h3 {
+    display: block;
+    font-size: 2.5em;
+    margin-block-start: 0.3em;
+    margin-block-end: -1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+p2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
 header {
     color: black;
     padding: 20px;
@@ -39,6 +60,7 @@ header {
 
 header .logo {
     width: 100px;
+    /* length: 300px; */
 }
 
 header h1 {
@@ -59,7 +81,7 @@ section {
 }
 
 .speed-test-results p.speed {
-    font-size: 200px;
+    font-size: 400px;
     font-weight: 500;
     margin-bottom: 10px;
     position: relative;
@@ -68,21 +90,21 @@ section {
 }
 
 .speed span {
-    font-size: 60px;
+    font-size: 90px;
     font-weight: 600;
     position: absolute;
-    right: 280px;
-    top: 0;
+    right: 180px;
+    top: 80px;
 }
 
 .speed-test-results i {
-    font-size: 30px;
+    font-size: 60px;
     border: 2px green solid;
     border-radius: 50%;
     padding: 10px;
     position: absolute;
-    right: 510px;
-    top: 150px;
+    right: 530px;
+    top: 300px;
     cursor: pointer;
 }
 
