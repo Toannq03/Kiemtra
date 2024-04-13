@@ -1,0 +1,142 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header {
+    color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    position: relative;
+}
+
+.logo {
+    height: 100px;
+    background-size: contain;
+    background: white url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwctNrnRcNL_-4YuYk1ahengldw85VTJQnZRWY1ciZeTPyG-SQR8fc4T4j1UkrKdgB-B4&usqp=CAU") no-repeat;
+    background-size: contain;
+    padding: 10px;
+    border: 2px solid red;
+}
+
+.left {
+    position: absolute;
+    right: 10px;
+    font-size: 10px;
+    display: flex;
+    font-size: 10px;
+    margin-right: 20px;
+}
+
+.left select {
+    border: none;
+}
+
+header .logo {
+    width: 100px;
+}
+
+header h1 {
+    margin-bottom: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    text-align: center;
+}
+
+.speed-test-results {
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.speed-test-results p.speed {
+    font-size: 200px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    position: relative;
+    width: 90%;
+    margin-top: 0px;
+}
+
+.speed span {
+    font-size: 60px;
+    font-weight: 600;
+    position: absolute;
+    right: 280px;
+    top: 0;
+}
+
+.speed-test-results i {
+    font-size: 30px;
+    border: 2px green solid;
+    border-radius: 50%;
+    padding: 10px;
+    position: absolute;
+    right: 510px;
+    top: 150px;
+    cursor: pointer;
+}
+
+.main button {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    border: 2px gray solid;
+    border-radius: 5px;
+    color: gray;
+    height: 35px;
+}
+
+.main button p {
+    margin: 5px 20px;
+}
+
+.contact {
+    margin-top: 40px;
+}
+
+.contact i {
+    font-size: 35px;
+    margin-left: 10px;
+}
+
+.powered-by {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-right: 20px;
+}
+
+.powered-by p {
+    margin-bottom: 5px;
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 8px;
+}
+
+.powered-by img {
+    width: 24px;
+    height: 24px;
+    padding: 3px;
+    border: 2px red solid;
+    display: inline-block;
+}
+
+footer {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: right;
+}
